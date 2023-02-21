@@ -23,6 +23,15 @@ html{
    margin-left: auto;
     background-color: rgb(255, 118, 232)
   }
+  @media( min-width:768px){
+    .tres_columnas{
+      display: grid;
+      grid-template-columns: repeat(3,1rf);
+      column-gap: 2rem;
+    }
+
+  }
+ 
   .entradaa{
     display: inline-block;
     background-color: blueviolet;

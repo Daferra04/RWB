@@ -68,6 +68,15 @@ html{
     }
   }
 
+  @media(min-width:1400px){
+    .tres_columnas{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+    }
+
+  }
+
   .entradab{
     display: inline-block;
     background-color: rgb(226, 223, 43);
